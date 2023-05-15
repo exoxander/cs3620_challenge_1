@@ -1,13 +1,15 @@
 #cs3620 coding challenge 1
+#alexander lustig
+
 
 #--------------------------< Part 1 >------------------------------
 #get user input
 p = int(input("Enter the principal: "))
 n = int(input("Enter the Number of years: "))
-r = int(input("Enter the interest % (as a whole number): ")) / 100
+r = int(input("Enter the interest % (as a whole number): "))
 
 #calculate and print
-print(p * r * n)
+print((p * r * n) / 100)
 print("\n")
 
 #-----------------------< Part 2 >------------------------------
@@ -23,10 +25,13 @@ foodItems.append("pineapple")
 foodItems.append("salmon")
 
 print(foodItems)
+print("\n")
+
 
 #insert and print new item at [3]
 foodItems.insert(3,"tacos")
 print(foodItems)
+print("\n")
 
 #---------------------------< Part 3 >--------------------------
 
@@ -34,6 +39,7 @@ print(foodItems)
 for i in range(5):
     print("I am a programmer.")
 
+print("\n")
 
 #define function
 def printSquares():
